@@ -1,0 +1,82 @@
+.collection{
+    position: relative;
+}
+
+.collection__items {
+    position: relative;
+    padding: 60px 30px 58px;
+    max-height: 250px;
+  }
+
+.collection__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+}
+
+.collection__types{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 0 40px;
+}
+
+.collection__link {
+    display: inline-flex;
+    padding: 11px 30px;
+    background-color: #d7b399;
+  }
+
+.collection__img {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+  }
+
+.left::before{
+    content: '';
+    min-height: 250px;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: #F9F6F1;
+    z-index: -1;
+}
+
+.right::after{
+    content: '';
+    min-height: 250px;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-color: #F4F4F4;
+    z-index: -1;
+}
+
+.cotalog__dress {
+    position: relative;
+    text-align: right;
+  }
+  
+  .dress-1 {
+    background-color: #f4f4f4;
+  }
+  .dress-2 {
+    background-color: #f9f6f1;
+  }
+  
+  .dress__name {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+  }
+  .dress__img {
+    max-width: 70%;
+  }
