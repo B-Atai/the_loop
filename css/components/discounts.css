@@ -1,0 +1,57 @@
+.discounts{
+    text-align: center;
+}
+
+.model__title{
+margin:150px 0 100px 0;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.dresses{
+    width: 23%;
+
+    min-height: 350px;
+    text-align: center;
+    margin: 0 32px 103px 0;
+}
+
+.dresses:last-child{
+    margin-right: 0;
+}
+
+.dresses__img{
+    padding: 22px 0 25px 0;
+}
+
+.dresses__title{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.dresses__price{
+    font-weight: bold;
+    font-size: 18px;
+    color: #D7B399;
+}
+
+.model__link{
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    background-color: #D7B399;
+    padding: 18px 35px;
+}
+
+.link__text{
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    padding-right: 10px;
+}
