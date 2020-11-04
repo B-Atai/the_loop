@@ -37,4 +37,9 @@ a,span  {
 
 .col-3 {
     width: 25%;
-  }
+}
+
+.col-2{
+    display: flex;
+    flex-direction: column;
+}

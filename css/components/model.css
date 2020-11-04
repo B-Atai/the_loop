@@ -13,11 +13,19 @@ color: #212121;
 }
 
 .dresses{
-    width: 23%;
-
-    min-height: 350px;
+    width: 22%;
     text-align: center;
     margin: 0 32px 103px 0;
+}
+
+.dresses__items{
+    position: relative;
+}
+
+.dresses__border{
+    position: absolute;
+    top: -10px;
+    text-align: center;
 }
 
 .dresses:last-child{
